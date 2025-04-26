@@ -39,15 +39,15 @@
                                             <div class="d-flex align-items-center">
                                                 <div class="avatar-circle me-3">
                                                     <div class="avatar-initial bg-sky-100 text-sky-600">
-                                                        {{ strtoupper(substr($freelancers->name, 0, 1)) }}
+                                                        {{ strtoupper(substr($freelancer->name, 0, 1)) }}
                                                     </div>
                                                 </div>
-                                                <span class="text-truncate">{{ $freelancers->email }}</span>
+                                                <span class="text-truncate">{{ $freelancer->email }}</span>
                                             </div>
                                         </td>
-                                        <td class="d-none d-md-table-cell text-muted">{{ $freelancers->skills }}</td>
+                                        <td class="d-none d-md-table-cell text-muted">{{ $freelancer->skills }}</td>
 
-                                        <td class="d-none d-lg-table-cell text-truncate text-secondary">{{ $freelancers->rating }}</td>
+                                        <td class="d-none d-lg-table-cell text-truncate text-secondary">{{ $freelancer->rating }}</td>
                                         <td>
                                         <td>
                                             <div class="d-flex justify-content-end gap-2 pe-3">

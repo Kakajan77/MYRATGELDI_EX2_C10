@@ -23,11 +23,13 @@
                                 </caption>
                                 <thead class="bg-snow">
                                 <tr>
-                                    <th scope="col">@lang('User ID')</th>
-                                    <th scope="col" class="d-none d-md-table-cell">@lang('Title')</th>
-                                    <th scope="col" class="d-none d-lg-table-cell">@lang('Description')</th>
-                                    <th scope="col">@lang('Budget')</th>
-                                    <th scope="col" class="text-end pe-4">@lang('Status')</th>
+                                    <th scope="col">@lang('JOB ID')</th>
+                                    <th scope="col" class="d-none d-md-table-cell">@lang('USER ID')</th>
+                                    <th scope="col" class="d-none d-lg-table-cell">@lang('FREELANCER ID')</th>
+                                    <th scope="col">@lang('start-date')</th>
+                                    <th scope="col" class="text-end pe-4">@lang('end-date')</th>
+                                    <th scope="col" class="text-end pe-4">@lang('amount')</th>
+                                    <th scope="col" class="text-end pe-4">@lang('status')</th>
                                 </tr>
                                 </thead>
                                 <tbody>
