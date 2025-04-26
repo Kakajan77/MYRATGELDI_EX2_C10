@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Contract;
 use App\Models\Freelancer;
 use App\Models\Job;
 use App\Models\Proposal;
@@ -21,9 +22,12 @@ class DatabaseSeeder extends Seeder
 
         Freelancer::factory()->count(rand(5,10))->create();
 
+
         Job::factory()->count(rand(20,30))->create();
 
         Proposal::factory()->count(rand(20,30))->create();
+
+        Contract::factory()->count(rand(20,30))->create();
 
         Review::factory()->count(rand(20,30))->create();
     }
