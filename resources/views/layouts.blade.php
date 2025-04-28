@@ -307,6 +307,7 @@
                         </a>
                     </li>
 
+
                     <li class="nav-item" data-aos="fade-down" data-aos-delay="200">
                         <a class="nav-link d-flex align-items-center" href="{{route('contracts.index')}}">
                             <i class="bi bi-file-earmark-lock2-fill fs-4"></i>
@@ -332,6 +333,13 @@
                         <a class="nav-link d-flex align-items-center" href="{{route('reviews.index')}}">
                             <i class="bi bi-trophy-fill fs-4"></i>
                             <span class="ms-2">Reviews</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item" data-aos="fade-down" data-aos-delay="400">
+                        <a class="nav-link d-flex align-items-center" href="{{route('freelancers.index')}}">
+                            <i class=" bi bi-person-fill fs-4"></i>
+                            <span class="ms-2">Freelancers</span>
                         </a>
                     </li>
                 </ul>
